@@ -1,0 +1,25 @@
+*{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+.chat{
+  width:400px;
+  height:300px;
+  border:1px solid gray;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  padding:4px;
+}
+
+.chat div{
+  height:24px;
+}
+
+input{
+  width:390px;
+  margin-top:4px;
+}
